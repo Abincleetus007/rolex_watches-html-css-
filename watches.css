@@ -1,0 +1,75 @@
+/* Resetting default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.image-box {
+    position: relative; 
+    flex: 1 1 45%; 
+    margin: 23px; 
+    max-width: 3600px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.image-box img {
+    width: 100%; 
+    height: auto; 
+    display: block;
+}
+
+.overlay-text {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.overlay-text h2 {
+    font-size: 24px; 
+    margin-bottom: 5px;
+}
+
+.overlay-text p {
+    font-size: 16px; 
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    .image-box {
+        flex: 1 1 100%;
+        max-width: 100%;
+    }
+
+    .overlay-text {
+        bottom: 10px;
+        left: 10px;
+        padding: 5px;
+    }
+
+    .overlay-text h2 {
+        font-size: 20px;
+    }
+
+    .overlay-text p {
+        font-size: 14px;
+    }
+}
