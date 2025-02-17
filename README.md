@@ -18,7 +18,8 @@ Welcome to the Rolex Watches project! This is a beautifully designed landing pag
 
 🚀 Live Demo
 
-🔗 Click here to view the live site
+🔗# Click here to view the live site
+//abincleetus007.github.io/rolex_watches-html-css-/
 
 🛠️ Technologies Used
 
@@ -26,4 +27,4 @@ HTML5 - For structuring the webpage
 
 CSS3 - For styling and animations
 
-📸 Screenshotshttps://abincleetus007.github.io/rolex_watches-html-css-/
+📸 Screenshotshttps:
